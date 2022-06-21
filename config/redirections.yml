@@ -1,0 +1,36 @@
+de:
+  company-creation: 
+    to: capital-deposit
+    status: 301
+  sme/firmenkonto-worauf-ist-zu-achten: 
+    to: open-an-account/firmenkonto/
+    status: 302
+en:
+  vouchers: 
+    to: https://help.qonto.com/en/articles/4460395-voucher-terms-and-conditions
+    status: 301
+    external_url: true
+fr:
+  compare-pricing: 
+    to: pricing#compare-plan 
+    status: 301
+  company-creation: 
+    to: capital-deposit
+    status: 301
+  pdfs/compare-pricing.pdf: 
+    to: documents
+    status: 301
+  hello: 
+    to: hello_world
+    status: 302
+
+# separated languages because some URL might be traduced
+
+# didn't nest too much (ex -> de: 
+#                              sme:
+#                                firmenkonto-worauf-ist-zu-achten:
+#                                  to: open-an-account/firmenkonto/
+#                                  status: 301 )
+# because would complexified too much and doesn't add value
+
+# each old path has a redirection path, a status and maybe an external url attribute for us to easily create the redirection
